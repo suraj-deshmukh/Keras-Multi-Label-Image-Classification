@@ -31,3 +31,7 @@ Exact Match | 0.54
 dataset: https://drive.google.com/open?id=0BxGfPTc19Ac2a1pDd1dxYlhIVlk
 
 weight file: https://drive.google.com/open?id=0BxGfPTc19Ac2X1RqNnEtRnNBNUE
+
+# Ipython notebook
+
+Jupyter/iPython Notebook has been provided to know about the model and its working. https://github.com/suraj-deshmukh/Multi-Label-Image-Classification/blob/master/miml.ipynb 
