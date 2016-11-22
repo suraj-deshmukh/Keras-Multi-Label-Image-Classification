@@ -36,4 +36,4 @@ weight file: https://drive.google.com/open?id=0BxGfPTc19Ac2X1RqNnEtRnNBNUE
 
 Jupyter/iPython Notebook has been provided to know about the model and its working. https://github.com/suraj-deshmukh/Multi-Label-Image-Classification/blob/master/miml.ipynb 
 
-[!all tag](https://github.com/suraj-deshmukh/Multi-Label-Image-Classification/blob/master/miml.ipynb)
+![all tag](https://github.com/suraj-deshmukh/Multi-Label-Image-Classification/blob/master/miml.ipynb)
