@@ -8,3 +8,4 @@ The complete description of dataset is given on http://lamda.nju.edu.cn/data_MIM
 
 # Keras Model Architecture
 
+![all tag](https://github.com/suraj-deshmukh/Multi-Label-Image-Classification/blob/master/model.png)
