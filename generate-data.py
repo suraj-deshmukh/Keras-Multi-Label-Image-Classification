@@ -6,8 +6,8 @@ import os
 from skimage import io
 from skimage.transform import resize
 
-target_path = "/home/suraj/Documents/datasets/miml-image-data/miml data.mat"
-image_path = "/home/suraj/Documents/datasets/miml-image-data/original"
+target_path = "miml-image-data/miml data.mat"   # target labels
+image_path = "miml-image-data/original"     # images
 
 y = sio.loadmat(target_path)
 y = y['targets']
