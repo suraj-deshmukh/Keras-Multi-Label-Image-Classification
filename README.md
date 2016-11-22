@@ -25,3 +25,8 @@ Accuracy | Value
 --------- | ---------
 Hamming loss | 0.1395
 Exact Match | 0.54
+
+# Preprocessed Dataset and Weight file download link
+
+dataset: https://drive.google.com/open?id=0BxGfPTc19Ac2a1pDd1dxYlhIVlk
+weight file: https://drive.google.com/open?id=0BxGfPTc19Ac2X1RqNnEtRnNBNUE
