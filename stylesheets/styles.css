@@ -158,6 +158,7 @@ p img {
   vertical-align: middle;
   text-align: center;
   border: none;
+  width: 100%;
 }
 
 /* Code blocks */
