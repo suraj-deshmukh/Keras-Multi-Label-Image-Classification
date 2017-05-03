@@ -6,6 +6,9 @@ from keras.layers import Convolution2D, MaxPooling2D
 from keras.optimizers import SGD
 from keras.callbacks import ModelCheckpoint
 from sklearn.metrics import matthews_corrcoef
+from sklearn.metrics import hamming_loss
+from keras import backend as K
+K.set_image_dim_ordering('th')
 
 x_train, x_test, y_train, y_test = load()
 
@@ -17,14 +20,14 @@ x_test /= 255
 
 
 model = Sequential()
-model.add(Convolution2D(32, 3, 3, border_mode='same',input_shape=(3 , 100, 100)))
+model.add(Convolution2D(32, kernel_size=(3, 3),padding='same',input_shape=(3 , 100, 100)))
 model.add(Activation('relu'))
-model.add(Convolution2D(32, 3, 3))
+model.add(Convolution2D(64, (3, 3)))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.25))
 
-model.add(Convolution2D(64, 3, 3, border_mode='same'))
+model.add(Convolution2D(64,(3, 3), padding='same'))
 model.add(Activation('relu'))
 model.add(Convolution2D(64, 3, 3))
 model.add(Activation('relu'))
