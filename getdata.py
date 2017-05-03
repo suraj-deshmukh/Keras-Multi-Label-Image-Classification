@@ -1,5 +1,5 @@
 import h5py
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 
 def load():
     f = h5py.File("dataset.h5")
