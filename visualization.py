@@ -4,7 +4,7 @@ from keras.layers import Dense, Dropout, Flatten, Activation
 from keras.layers import Convolution2D, MaxPooling2D
 from keras.optimizers import SGD
 from keras import backend as K
-from quiver_engine import server
+from quiver_engine import server  # https://github.com/keplr-io/quiver
 K.set_image_dim_ordering('th')
 
 
