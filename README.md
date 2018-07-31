@@ -30,9 +30,6 @@ Exact Match | 0.54
 
 Dataset: https://drive.google.com/open?id=0BxGfPTc19Ac2a1pDd1dxYlhIVlk
 
-# Keras repo:
-Github: https://github.com/keras-team/keras
-
 Weight file: https://drive.google.com/open?id=0BxGfPTc19Ac2X1RqNnEtRnNBNUE
 
 # Ipython notebook
@@ -46,3 +43,6 @@ Command:
 python visualization.py
 
 link: localhost:5000
+
+# Keras repo:
+Github: https://github.com/keras-team/keras
