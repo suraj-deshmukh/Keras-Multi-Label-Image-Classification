@@ -4,8 +4,6 @@ import h5py
 import cv2
 import scipy.io as sio
 import os
-
-
 from skimage import io
 from skimage.transform import resize
 
