@@ -1,8 +1,11 @@
+from __future__ import print_function
 import numpy as np
 import h5py
 import cv2
 import scipy.io as sio
 import os
+
+
 from skimage import io
 from skimage.transform import resize
 
@@ -16,7 +19,7 @@ y = np.array([[elem if elem == 1 else 0 for elem in row]for row in y])
 x = []
 
 for i in range(1,2001):
-    print "reading image:"+str(i) + ".jpg"
+    print("reading image:"+str(i) + ".jpg")
     img = image_path + "/" + str(i) + ".jpg"
     img = cv2.imread(img)
     img = cv2.resize(img,(100,100))
