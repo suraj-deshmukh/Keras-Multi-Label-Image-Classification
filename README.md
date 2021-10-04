@@ -4,7 +4,7 @@ The objective of this study is to develop a deep learning model that will identi
 
 # Dataset
 
-The complete description of dataset is given on http://lamda.nju.edu.cn/data_MIMLimage.ashx. The dataset contains 2000 natural scenes images.
+The complete description of dataset is given on <s>http://lamda.nju.edu.cn/data_MIMLimage.ashx.</s> https://www.kaggle.com/twopothead/miml-image-data/tasks The dataset contains 2000 natural scenes images.
 
 # Keras Model Architecture
 
