@@ -28,9 +28,9 @@ Exact Match | 0.54
 
 # Preprocessed Dataset and Weight file download link
 
-Dataset: https://drive.google.com/file/d/0BxGfPTc19Ac2a1pDd1dxYlhIVlk/view?usp=sharing&resourcekey=0-FV7LBDJ0Qo-Yl1gLz5tgNA
+Dataset: https://github.com/suraj-deshmukh/Keras-Multi-Label-Image-Classification/blob/master/dataset.h5
 
-Weight file: https://drive.google.com/file/d/0BxGfPTc19Ac2X1RqNnEtRnNBNUE/view?usp=sharing&resourcekey=0-S7NbLcA7DPEpsrI_YZzopw
+Weight file: https://github.com/suraj-deshmukh/Keras-Multi-Label-Image-Classification/blob/master/weights.hdf5
 
 # Ipython notebook
 
