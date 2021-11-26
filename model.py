@@ -1,3 +1,4 @@
+from __future__ import print_function
 import numpy as np
 from getdata import load
 from keras.models import Sequential
@@ -70,7 +71,7 @@ for i in range(out.shape[1]):
     best_threshold[i] = threshold[index[0][0]]
     acc = []
 
-print "best thresholds", best_threshold
+print("best thresholds", best_threshold)
 y_pred = np.array([[1 if out[i,j]>=best_threshold[j] else 0 for j in range(y_test.shape[1])] for i in range(len(y_test))])
 
 print("-"*40)
